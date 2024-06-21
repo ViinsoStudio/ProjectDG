@@ -1,4 +1,4 @@
-@SAPP_HostAddress = http://localhost:5272
+@SAPP_HostAddress = http://localhost:5058
 
 GET {{SAPP_HostAddress}}/weatherforecast/
 Accept: application/json

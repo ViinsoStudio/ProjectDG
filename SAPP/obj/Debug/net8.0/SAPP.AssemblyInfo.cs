@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SAPP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d6ac840696b279399eaa8807e12f1c5c87c79cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("SAPP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SAPP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
