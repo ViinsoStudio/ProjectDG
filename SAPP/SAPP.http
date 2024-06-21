@@ -1,0 +1,6 @@
+@SAPP_HostAddress = http://localhost:5022
+
+GET {{SAPP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
