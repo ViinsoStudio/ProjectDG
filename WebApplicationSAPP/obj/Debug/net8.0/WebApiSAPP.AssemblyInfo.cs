@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApiSAPP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de6808b608c9e7251dd7ea2d4377ad743478357b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb28da3e492d2e64a22f4c34ec18e2b3e45e3fb9")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApiSAPP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApiSAPP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
