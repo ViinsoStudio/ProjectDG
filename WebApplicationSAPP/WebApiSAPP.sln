@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationSAPP", "WebApplicationSAPP.csproj", "{9656D474-E818-4D8C-A54E-4850A76CFD2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSAPP", "WebApiSAPP.csproj", "{9656D474-E818-4D8C-A54E-4850A76CFD2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
