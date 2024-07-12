@@ -1,0 +1,33 @@
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\01. WebAPISAPP.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\01. WebAPISAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\01. WebAPISAPP.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\01. WebAPISAPP.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\01. WebAPISAPP.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\01. WebAPISAPP.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\01. WebAPISAPP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\01. WebAPISAPP.sourcelink.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\bin\Debug\net8.0\appsettings.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\bin\Debug\net8.0\01. WebAPISAPP.exe
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\bin\Debug\net8.0\01. WebAPISAPP.deps.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\bin\Debug\net8.0\01. WebAPISAPP.runtimeconfig.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\bin\Debug\net8.0\01. WebAPISAPP.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\bin\Debug\net8.0\01. WebAPISAPP.pdb
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\staticwebassets\msbuild.01. WebAPISAPP.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\staticwebassets\msbuild.build.01. WebAPISAPP.props
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.01. WebAPISAPP.props
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.01. WebAPISAPP.props
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\scopedcss\bundle\01. WebAPISAPP.styles.css
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\01. WebA.2224E47A.Up2Date
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\01. WebAPISAPP.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\refint\01. WebAPISAPP.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\01. WebAPISAPP.pdb
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\01. WebAPISAPP.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\01. WebAPISAPP\obj\Debug\net8.0\ref\01. WebAPISAPP.dll
