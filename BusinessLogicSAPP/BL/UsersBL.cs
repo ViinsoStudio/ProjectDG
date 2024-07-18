@@ -13,7 +13,7 @@ namespace BusinessLogicSAPP.BL
     public class UsersBL
     {
         private readonly IMapper _mapper;
-        UsersQueries _queries;
+        public readonly UsersQueries _queries;
         public UsersBL(UsersQueries queries)
         {
             _queries = queries;

@@ -8,7 +8,7 @@ namespace WebApiSAPP.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
-        UsersBL _bussines;
+        public readonly UsersBL _bussines;
 
         public UsersController(UsersBL usersBL)
         {

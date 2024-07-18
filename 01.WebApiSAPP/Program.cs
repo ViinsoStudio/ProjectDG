@@ -7,10 +7,8 @@ using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-//Creación de la variable para la cadena de conexión
 var connectionString = builder.Configuration.GetConnectionString("ConnectionDB_SAPP");
-//Registro del servicio para la conexión a la base de datos
+
 builder.Services.AddDbContext<AppDbContext>(
     options => options.UseSqlServer(connectionString)
 );
@@ -18,6 +16,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//DataAccessSAPP Queries
+builder.Services.AddScoped<UsersQueries>();
+
+//BussinesLogic BL
+builder.Services.AddScoped<UsersBL>();
 
 var app = builder.Build();
 
@@ -37,8 +41,3 @@ app.MapControllers();
 app.Run();
 
 
-//DataAccessSAPP Queries
-builder.Services.AddScoped<UsersQueries>();
-
-//BussinesLogic BL
-builder.Services.AddScoped<UsersBL>();
