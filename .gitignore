@@ -1,13 +1,4 @@
 .vs/
-BusinessLogicSAPP/
-DataAccessSAPP/
-WebApiSAPP/bin/
-
-
-
-
-
-
 /01.WebApiSAPP/bin/Debug/net8.0/
 /01.WebApiSAPP/bin/Debug/net8.0/BusinessLogicSAPP.pdb
 /01.WebApiSAPP/bin/Debug/net8.0/DataAccessSAPP.dll
@@ -52,3 +43,6 @@ WebApiSAPP/bin/
 /BusinessLogicSAPP/obj/Debug/net8.0/refint/BusinessLogicSAPP.dll
 /BusinessLogicSAPP/obj/Debug/net8.0/BusinessLogicSAPP.csproj.AssemblyReference.cache
 /BusinessLogicSAPP/bin/Debug/net8.0/DataAccessSAPP.pdb
+BusinessLogicSAPP/obj/Release/
+DataAccessSAPP/obj/Release/
+
