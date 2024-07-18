@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSAPP", "WebApiSAPP.csproj", "{9656D474-E818-4D8C-A54E-4850A76CFD2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiSAPP", "WebApiSAPP.csproj", "{9656D474-E818-4D8C-A54E-4850A76CFD2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. WebApiSAPP", "01. WebApiSAPP", "{58215335-6E3B-4D01-83C7-545C1573F811}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9656D474-E818-4D8C-A54E-4850A76CFD2C} = {58215335-6E3B-4D01-83C7-545C1573F811}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A2322EC0-583A-43FE-90A2-3F17CE4EB148}
