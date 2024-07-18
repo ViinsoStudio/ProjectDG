@@ -36,6 +36,9 @@ app.MapControllers();
 
 app.Run();
 
-builder.Services.AddScoped<>(UsersQueries);
 
-builder.Services.AddScoped<>(UsersBL);
+//DataAccessSAPP Queries
+builder.Services.AddScoped<UsersQueries>();
+
+//BussinesLogic BL
+builder.Services.AddScoped<UsersBL>();
