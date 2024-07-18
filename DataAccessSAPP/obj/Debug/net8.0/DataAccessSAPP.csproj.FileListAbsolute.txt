@@ -1,0 +1,13 @@
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\DataAccessSAPP\bin\Debug\net8.0\DataAccessSAPP.deps.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\DataAccessSAPP\bin\Debug\net8.0\DataAccessSAPP.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\DataAccessSAPP\bin\Debug\net8.0\DataAccessSAPP.pdb
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\DataAccessSAPP\obj\Debug\net8.0\DataAccessSAPP.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\DataAccessSAPP\obj\Debug\net8.0\DataAccessSAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\DataAccessSAPP\obj\Debug\net8.0\DataAccessSAPP.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\DataAccessSAPP\obj\Debug\net8.0\DataAccessSAPP.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\DataAccessSAPP\obj\Debug\net8.0\DataAccessSAPP.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\DataAccessSAPP\obj\Debug\net8.0\DataAccessSAPP.sourcelink.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\DataAccessSAPP\obj\Debug\net8.0\DataAccessSAPP.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\DataAccessSAPP\obj\Debug\net8.0\refint\DataAccessSAPP.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\DataAccessSAPP\obj\Debug\net8.0\DataAccessSAPP.pdb
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\DataAccessSAPP\obj\Debug\net8.0\ref\DataAccessSAPP.dll

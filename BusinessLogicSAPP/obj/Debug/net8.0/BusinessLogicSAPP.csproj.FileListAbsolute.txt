@@ -1,0 +1,16 @@
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\bin\Debug\net8.0\BusinessLogicSAPP.deps.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\bin\Debug\net8.0\BusinessLogicSAPP.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\bin\Debug\net8.0\BusinessLogicSAPP.pdb
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\bin\Debug\net8.0\DataAccessSAPP.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\bin\Debug\net8.0\DataAccessSAPP.pdb
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\obj\Debug\net8.0\BusinessLogicSAPP.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\obj\Debug\net8.0\BusinessLogicSAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\obj\Debug\net8.0\BusinessLogicSAPP.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\obj\Debug\net8.0\BusinessLogicSAPP.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\obj\Debug\net8.0\BusinessLogicSAPP.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\obj\Debug\net8.0\BusinessLogicSAPP.sourcelink.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\obj\Debug\net8.0\Business.07ABD5D4.Up2Date
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\obj\Debug\net8.0\BusinessLogicSAPP.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\obj\Debug\net8.0\refint\BusinessLogicSAPP.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\obj\Debug\net8.0\BusinessLogicSAPP.pdb
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\BusinessLogicSAPP\obj\Debug\net8.0\ref\BusinessLogicSAPP.dll

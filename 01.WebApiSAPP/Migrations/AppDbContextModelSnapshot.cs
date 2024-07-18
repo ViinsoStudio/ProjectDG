@@ -3,13 +3,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebApiSAPP.Context;
+
 
 #nullable disable
 
 namespace WebApiSAPP.Migrations
 {
-    [DbContext(typeof(AppDbContext))]
+    [DbContext(typeof(DataAccessSAPP.Context.AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

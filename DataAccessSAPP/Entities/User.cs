@@ -1,4 +1,4 @@
-﻿namespace WebApiSAPP.Models
+﻿namespace DataAccessSAPP.Entities
 {
     public class User
     {
@@ -15,5 +15,15 @@
         public required string Email { get; set; }
         public required string Phone { get; set; }
 
+        public User()
+        {
+            FirstName = string.Empty;
+            MiddleName = string.Empty;
+            LastName = string.Empty;
+            MiddleLastName = string.Empty;
+            IdentificationDocumentNumber = string.Empty;
+            Email = string.Empty;
+            Phone = string.Empty;
+        }
     }
 }

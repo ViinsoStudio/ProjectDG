@@ -1,6 +1,9 @@
+using BusinessLogicSAPP.BL;
+using DataAccessSAPP.Context;
+using DataAccessSAPP.Queries;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
-using WebApiSAPP.Context;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,3 +35,7 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+builder.Services.AddScoped<>(UsersQueries);
+
+builder.Services.AddScoped<>(UsersBL);

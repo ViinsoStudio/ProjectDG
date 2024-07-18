@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using WebApiSAPP.Models;
+﻿using DataAccessSAPP.Entities;
+using Microsoft.EntityFrameworkCore;
 
-namespace WebApiSAPP.Context
+namespace DataAccessSAPP.Context
 {
     public class AppDbContext: DbContext
     {
