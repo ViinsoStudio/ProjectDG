@@ -39,5 +39,20 @@ namespace DataAccessSAPP.Queries
 
             return users;
         }
+
+        public List<Country> GetCountries()
+        {
+            return _context.Countries.ToList();
+        }
+
+        public List<DepStaPro> GetDepStaProsByCountry(int countryId)
+        {
+            return _context.DepStaPros.Where(dsp => dsp.CountryId == countryId).ToList();
+        }
+
+        public List<CitMun> GetCitMunsByDepStaPro(int DepStaProId)
+        {
+            return _context.CitMuns.Where(cm => cm.DepStaProId == DepStaProId).ToList();
+        }
     }
 }

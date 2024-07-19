@@ -2,6 +2,7 @@
 using BusinessLogicSAPP.Models.Dto;
 using DataAccessSAPP.Entities;
 using DataAccessSAPP.Queries;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,6 +46,41 @@ namespace BusinessLogicSAPP.BL
             var usersDto = _mapper.Map<List<UserDto>>(users);
 
             return usersDto;
+        }
+        /// <summary>
+        /// Trae el listado de los paises en la base de datos
+        /// </summary>
+        /// <returns>Listado de paises</returns>
+        public List<CountryDto> GetCountries()
+        {
+            var contriesList = _queries.GetCountries();
+            var contriesListDto = _mapper.Map<List<CountryDto>>(contriesList);
+
+            return contriesListDto;
+        }
+        /// <summary>
+        /// Trae el listado de Departamentos, Estados o Provincias por país
+        /// </summary>
+        /// <param name="countryId">Dato empleado para hacer el filtro de la información</param>
+        /// <returns>Listado de Departamentos, Estados o Provincias del país seleccionado</returns>
+        public List<DepStaProDto> GetDepStaProsByCountry(int countryId)
+        {
+            var depStaProList = _queries.GetDepStaProsByCountry(countryId);
+            var depStaProListDto = _mapper.Map<List<DepStaProDto>>(depStaProList);
+
+            return depStaProListDto;
+        }
+        /// <summary>
+        /// Consulta del listado de Ciudades o Municipios por Departamento, Estado o Provincia
+        /// </summary>
+        /// <param name="DepStaProId">Dato empleado para realizar el filtro</param>
+        /// <returns>Listado de ciudades o municipios</returns>
+        public List<CitMunDto> GetCitMunsByDepStaPro(int DepStaProId)
+        {
+            var citMunList = _queries.GetCitMunsByDepStaPro(DepStaProId);
+            var citMunListDto = _mapper.Map<List<CitMunDto>>(citMunList);
+
+            return citMunListDto;
         }
     }
 }

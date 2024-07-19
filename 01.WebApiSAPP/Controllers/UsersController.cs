@@ -27,5 +27,23 @@ namespace WebApiSAPP.Controllers
         {
             return _bussines.GetRegisteredUsers();
         }
+
+        [HttpGet("GetCountries")]
+        public List<CountryDto> GetCountries()
+        {
+            return _bussines.GetCountries();
+        }
+
+        [HttpGet("GetDepStaProsByCountry")]
+        public List<DepStaProDto> GetDepStaProsByCountry(int countryId)
+        {
+            return _bussines.GetDepStaProsByCountry(countryId);
+        }
+
+        [HttpGet("GetCitMunsByDepStaPro")]
+        public List<CitMunDto> GetCitMunsByDepStaPro(int DepStaProId)
+        {
+            return _bussines.GetCitMunsByDepStaPro(DepStaProId);
+        }
     }
 }

@@ -19,6 +19,11 @@ namespace DataAccessSAPP.Entities
         [Column(TypeName = "VARCHAR(80)")]
         public string Name { get; set; }
         public int DepStaProId { get; set; }
+
+        public CitMun() 
+        { 
+            Name = string.Empty;
+        }
         public class CitMunConfiguration : IEntityTypeConfiguration<CitMun>
         {
             [Obsolete]

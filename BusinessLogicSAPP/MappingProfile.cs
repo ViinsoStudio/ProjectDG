@@ -17,6 +17,12 @@ namespace BusinessLogicSAPP
             CreateMap<UserDto, User>();
             CreateMap<Animal, AnimalDto>();
             CreateMap<AnimalDto, Animal>();
+            CreateMap<Country, CountryDto>();
+            CreateMap<CountryDto, Country>();
+            CreateMap<DepStaPro, DepStaProDto>();
+            CreateMap<DepStaProDto, DepStaPro>();
+            CreateMap<CitMun, CitMunDto>();
+            CreateMap<CitMunDto, CitMun>();
         }    
     }
 }
