@@ -15,6 +15,8 @@ namespace BusinessLogicSAPP
         {
             CreateMap<User, UserDto>();
             CreateMap<UserDto, User>();
+            CreateMap<Animal, AnimalDto>();
+            CreateMap<AnimalDto, Animal>();
         }    
     }
 }

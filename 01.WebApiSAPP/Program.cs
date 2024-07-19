@@ -20,9 +20,11 @@ builder.Services.AddSwaggerGen();
 
 //DataAccessSAPP Queries
 builder.Services.AddScoped<UsersQueries>();
+builder.Services.AddScoped<AnimalsQueries>();
 
 //BussinesLogic BL
 builder.Services.AddScoped<UsersBL>();
+builder.Services.AddScoped<AnimalsBL>();
 
 var app = builder.Build();
 

@@ -20,5 +20,12 @@ namespace WebApiSAPP.Controllers
 
             return _bussines.UserRegister(userDto);
         }
+
+        [HttpGet("GetRegisteredUsers")]
+
+        public List<UserDto> GetRegisteredUsers()
+        {
+            return _bussines.GetRegisteredUsers();
+        }
     }
 }

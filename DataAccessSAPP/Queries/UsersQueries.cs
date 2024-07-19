@@ -12,6 +12,11 @@ namespace DataAccessSAPP.Queries
             _context = context;
         }
 
+        /// <summary>
+        /// Se registra un nuevo usuario de la App
+        /// </summary>
+        /// <param name="user">Corresponde a los datos del usuario registrado</param>
+        /// <returns>True si el registro de hace con éxito o false se no es exitoso</returns>
         public bool UserRegister(User user)
         {
             try
@@ -25,6 +30,14 @@ namespace DataAccessSAPP.Queries
 
                 return false;
             }   
+        }
+
+        public List<User> GetRegisteredUsers()
+        {
+            var users = (from user in _context.Users
+                        select user).ToList();
+
+            return users;
         }
     }
 }
