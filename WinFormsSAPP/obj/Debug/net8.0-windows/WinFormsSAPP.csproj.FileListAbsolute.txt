@@ -1,0 +1,17 @@
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\bin\Debug\net8.0-windows\WinFormsSAPP.exe
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\bin\Debug\net8.0-windows\WinFormsSAPP.deps.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\bin\Debug\net8.0-windows\WinFormsSAPP.runtimeconfig.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\bin\Debug\net8.0-windows\WinFormsSAPP.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\bin\Debug\net8.0-windows\WinFormsSAPP.pdb
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\obj\Debug\net8.0-windows\WinFormsSAPP.InterfazSAPP.resources
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\obj\Debug\net8.0-windows\WinFormsSAPP.csproj.GenerateResource.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\obj\Debug\net8.0-windows\WinFormsSAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\obj\Debug\net8.0-windows\WinFormsSAPP.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\obj\Debug\net8.0-windows\WinFormsSAPP.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\obj\Debug\net8.0-windows\WinFormsSAPP.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\obj\Debug\net8.0-windows\WinFormsSAPP.sourcelink.json
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\obj\Debug\net8.0-windows\WinFormsSAPP.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\obj\Debug\net8.0-windows\refint\WinFormsSAPP.dll
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\obj\Debug\net8.0-windows\WinFormsSAPP.pdb
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\obj\Debug\net8.0-windows\WinFormsSAPP.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WinFormsSAPP\obj\Debug\net8.0-windows\ref\WinFormsSAPP.dll
