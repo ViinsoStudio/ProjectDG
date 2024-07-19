@@ -8,6 +8,7 @@ using Microsoft.Extensions.Options;
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("ConnectionDB_SAPP");
+AppDbContext.ConnectionString = connectionString;
 
 builder.Services.AddDbContext<AppDbContext>(
     options => options.UseSqlServer(connectionString)

@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace WebApiSAPP.Migrations
+namespace DataAccessSAPP.Migrations
 {
     /// <inheritdoc />
     public partial class Initial : Migration
