@@ -1,4 +1,50 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿function GetCountries() {
+    $.ajax({
+        url: window.location.origin + '/Home/GetCountries',
+        method: 'GET',
+        dataType: 'json',
+        success: function (data) {
+            var selectCountries = $('#countries');
 
-// Write your JavaScript code.
+            selectCountries.empty();
+
+            var optionSelected = $('<option></option>');
+            optionSelected.text('Seleccione un país');
+            optionSelected.val(0);
+            optionSelected.prop('selected', true);
+
+            selectCountries.append(optionSelected);
+
+            for (var i = 0; i < data.length; i++) {
+                var option = $('<option></option>');
+                option.text(data[i].name);
+                option.val(data[i].id);
+                selectCountries.append(option);
+            }
+        },
+        error: function (error) {
+            console.log(error);
+        }
+    });
+}
+
+function GetDepStaProsByCountry() {
+    var countryId = 1;
+    $.ajax({
+        url: window.location.origin + '/Home/GetDepStaProsByCountry?countryId=' + countryId,
+        method: 'GET',
+        dataType: 'json',
+        success: function (data) {
+            console.log(data);
+        },
+        error: function (error) {
+            console.log(error);
+        }
+    });
+}
+
+
+
+$(document).ready(function () {
+    GetCountries();
+});
