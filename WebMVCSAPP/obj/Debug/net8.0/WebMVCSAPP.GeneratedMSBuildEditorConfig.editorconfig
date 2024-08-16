@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ASUS\source\repos\ProyectoGitFlow\ProjectDG\WebMVCSAPP
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ASUS/source/repos/ProyectoGitFlow/ProjectDG/WebMVCSAPP/Views/Animals/Profiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsc1xQcm9maWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ASUS/source/repos/ProyectoGitFlow/ProjectDG/WebMVCSAPP/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

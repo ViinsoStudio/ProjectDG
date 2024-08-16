@@ -12,6 +12,7 @@
                 <div class="form-group">
                     <label for="primer-nombre">Primer Nombre: (*)</label>
                     <input type="text" class="form-control" id="primer-nombre" placeholder="Primer nombre">
+                    <span id="error-primer-nombre" class="fw-bold text-danger d-none">Ingrese su nombre</span>
                 </div>
             </div>
             <div class="col-6">
@@ -22,8 +23,9 @@
             </div>
             <div class="col-6">
                 <div class="form-group">
-                    <label for="primer-apelliod">Primer Apellido: (*)</label>
+                    <label for="primer-apellido">Primer Apellido: (*)</label>
                     <input type="text" class="form-control" id="primer-apellido" placeholder="Primer apellido">
+                    <span id="error-primer-apellido" class="fw-bold text-danger d-none">Ingrese su apellido</span>
                 </div>
             </div>
             <div class="col-6">
@@ -36,53 +38,51 @@
                 <div class="form-group">
                     <label for="email">Email: (*)</label>
                     <input type="email" class="form-control" id="email" placeholder="sapp@gmail.com">
+                    <span id="error-email" class="fw-bold text-danger d-none">Ingrese su email</span>
                 </div>
             </div>
             <div class="col-6">
                 <div class="form-group">
                     <label for="celular">celular: (*)</label>
                     <input type="text" class="form-control" id="celular" placeholder="305-1111111">
+                    <span id="error-celular" class="fw-bold text-danger d-none">Ingrese su número de celular</span>
                 </div>
             </div>
             <div class="col-6">
                 <label for="país">País (*)</label>
-                <select class="custom-select form-control" id="countries" onchange="GetDepStaProsByCountry()"></select>
+                <select class="custom-select form-control" id="paises" onchange="GetDepStaProsByCountry()"></select>
+                <span id="error-pais" class="fw-bold text-danger d-none">Seleccione un país</span>
             </div>
             <div class="col-6">
                 <label for="departamento">Departamento (*)</label>
-                <select class="custom-select form-control"></select>
+                <select class="custom-select form-control" id="departamentos" onchange="GetCitMunsByDepStaPro()" disabled></select>
+                <span id="error-departamento" class="fw-bold text-danger d-none">Seleccione un departamento</span>
             </div>
             <div class="col-6">
                 <label for="municipio-ciudad">Municipio/Ciudad (*)</label>
-                <select class="custom-select form-control">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                </select>
+                <select class="custom-select form-control" id="ciudadesOMunicipios" disabled onchange="DisabledFalseSelectDocumentTypes()"></select>
+                <span id="error-ciudad-municipio" class="fw-bold text-danger d-none">Seleccione una ciudad o municipio</span>
             </div>
             <div class="col-6">
                 <label for="tipo-documento">Tipo de documento (*)</label>
-                <select class="custom-select form-control">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                </select>
+                <select class="custom-select form-control" id="tiposDocumentoIdentidad" disabled onchange="RemoveDocumentTypeError()"></select>
+                <span id="error-tipo-documento" class="fw-bold text-danger d-none">Seleccione un tipo de documento</span>
             </div>
             <div class="col-6">
                 <div class="form-group">
                     <label for="numero-documento-id">Número de documento: (*)</label>
                     <input type="text" class="form-control" id="numero-documento" placeholder="1111111111">
+                    <span id="error-numero-documento" class="fw-bold text-danger d-none">Ingrese su numero de documento</span>
                 </div>
             </div>
         </div>
         <div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="terminos-condiciones">
-            <label class="form-check-label" for="exampleCheck1">Acepto terminos &Aacute; condiciones</label>
+            <label class="form-check-label" for="exampleCheck1">Acepto terminos y condiciones</label>
+            <span id="error-terminos-condiciones" class="fw-bold text-danger d-none">Acepte terminos y condiciones</span>
         </div>
-        <button type="submit" class="btn btn-primary">Registrar</button>
-        <button type="button" class="btn btn-primary">Cancelar</button>
+        <button type="button" class="btn btn-primary" onclick="UserRegister()">Registrar</button>
+        <button type="button" class="btn btn-primary" onclick="CleanFormRegisterUser()">Cancelar</button>
     </form>
 </div>
 

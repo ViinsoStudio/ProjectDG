@@ -1,0 +1,73 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div>
+    <form>
+        <div class="row">
+            <div class="col-12">
+                <h1>Registro de animales</h1>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="nombre">Nombre: (*)</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" class="form-control" />
+                    <span  id="error-nombre-animal" class="fw-bold text-danger d-none">Ingrese el nombre</span>
+                </div>    
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="numero-identificacion">Número de identificación:</label>
+                    <input type="text" name="numero-identificacion" id="numero-identificacion" placeholder="Numero de identificación" class="form-control" />
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+                    <input type="date" name="fecha-nacimiento" id="fecha-nacimiento" class="form-control" />
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="fecha-adquisicion">Fecha de adquisición: (*)</label>
+                    <input type="date" name="fecha-adquisicion" id="fecha-adquisicion" class="form-control" />
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="tipo-animal">Tipo de animal: (*)</label>
+                    <select type="text" class="form-control" id="tipo-animal"></select>
+                    <span id="error-tipo-animal" class="fw-bold text-danger d-none">Seleccione un tipo de animal</span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="raza">Raza: (*)</label>
+                    <select type="text" class="form-control" id="raza"></select>
+                    <span id="error-raza" class="fw-bold text-danger d-none">Seleccione una raza</span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="estado-reproductivo">Estado Reproductivo: (*)</label>
+                    <select class="form-control" id="estado-reproductivo"></select>
+                    <span id="error-estado-reproductivo" class="fw-bold text-danger d-none">Seleccione el estado reproductivo</span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="numero-partos">Número de partos: (*)</label>
+                    <input type="number" name="numero-partos" id="numero-partos" class="form-control" />
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="form-group">
+                    <label for="foto">Foto:</label>
+                    <input type="file" class="form-control" id="foto"/>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

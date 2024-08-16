@@ -82,5 +82,13 @@ namespace BusinessLogicSAPP.BL
 
             return citMunListDto;
         }
+
+        public List<DocumentTypeDto> GetDocumentTypes()
+        {
+            var documentTypes = _queries.GetDocumentTypes();
+            var documentTypesDto = _mapper.Map<List<DocumentTypeDto>>(documentTypes);
+
+            return documentTypesDto;
+        }
     }
 }

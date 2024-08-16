@@ -20,6 +20,7 @@ namespace DataAccessSAPP.Context
         public DbSet<Animal> Animals { get; set; }
         public DbSet<Country> Countries { get; set; }
         public DbSet<DepStaPro> DepStaPros {  get; set; }
+        public DbSet<DocumentType> DocumentTypes { get; set; }
         public DbSet<CitMun> CitMuns { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -45,5 +45,11 @@ namespace WebApiSAPP.Controllers
         {
             return _bussines.GetCitMunsByDepStaPro(DepStaProId);
         }
+
+        [HttpGet("GetDocumentTypes")]
+        public List<DocumentTypeDto> GetDocumentTypes()
+        {
+            return _bussines.GetDocumentTypes();
+        }
     }
 }

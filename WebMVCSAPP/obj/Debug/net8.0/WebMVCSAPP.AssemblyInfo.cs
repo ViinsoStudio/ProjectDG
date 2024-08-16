@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebMVCSAPP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a137adc7b9adf9b7bc9da452e50e98ab48b9ec4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf1d2ab188d3476500f723e03ffeb4998a30680b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebMVCSAPP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebMVCSAPP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

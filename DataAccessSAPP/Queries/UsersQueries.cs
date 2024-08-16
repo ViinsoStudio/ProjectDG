@@ -47,12 +47,19 @@ namespace DataAccessSAPP.Queries
 
         public List<DepStaPro> GetDepStaProsByCountry(int countryId)
         {
-            return _context.DepStaPros.Where(dsp => dsp.CountryId == countryId).ToList();
+            return (from DepStaPro in _context.DepStaPros
+                   where DepStaPro.CountryId == countryId
+                   select DepStaPro).ToList();
         }
 
         public List<CitMun> GetCitMunsByDepStaPro(int DepStaProId)
         {
             return _context.CitMuns.Where(cm => cm.DepStaProId == DepStaProId).ToList();
+        }
+
+        public List<DocumentType> GetDocumentTypes()
+        {
+            return _context.DocumentTypes.ToList();
         }
     }
 }

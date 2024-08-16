@@ -21,6 +21,8 @@ namespace BusinessLogicSAPP
             CreateMap<CountryDto, Country>();
             CreateMap<DepStaPro, DepStaProDto>();
             CreateMap<DepStaProDto, DepStaPro>();
+            CreateMap<DocumentType, DocumentTypeDto>();
+            CreateMap<DocumentTypeDto, DocumentType>();
             CreateMap<CitMun, CitMunDto>();
             CreateMap<CitMunDto, CitMun>();
         }    
