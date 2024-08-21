@@ -16,10 +16,10 @@ namespace WebApiSAPP.Controllers
             _bussines = animalsBl;
         }
 
-        [HttpPost("AnimalsRegister")]
-        public bool AnimalsRegister(List<AnimalDto> animalsData)
+        [HttpPost("AnimalRegister")]
+        public bool AnimalRegister(AnimalDto animalsData)
         {
-            return _bussines.AnimalsRegister(animalsData);
+            return _bussines.AnimalRegister(animalsData);
         }
 
         [HttpGet("GetAnimalByName")]
@@ -32,6 +32,24 @@ namespace WebApiSAPP.Controllers
         public List<AnimalDto> GetAnimalsByUser(int userId)
         {
             return _bussines.GetAnimalsByUser(userId);
+        }
+
+        [HttpGet("GetAnimalTypes")]
+        public List<AnimalTypeDto> GetAnimalTypes()
+        {
+            return _bussines.GetAnimalTypes();
+        }
+
+        [HttpGet("GetRazasByAnimalType")]
+        public List<RazaDto> GetRazasByAnimalType(int animalTypeId)
+        {
+            return _bussines.GetRazasByAnimalType(animalTypeId);
+        }
+
+        [HttpGet("GetReproductiveStatusByAnimalType")]
+        public List<ReproductiveStatusDto> GetReproductiveStatusByAnimalType(int animalTypeId)
+        {
+            return _bussines.GetReproductiveStatusByAnimalType(animalTypeId);
         }
     }
 }

@@ -31,11 +31,11 @@ namespace BusinessLogicSAPP.BL
         /// </summary>
         /// <param name="animalsData">Listado de animales que se registran</param>
         /// <returns>True si el registro es exitoso y false si es fallido</returns>
-        public bool AnimalsRegister(List<AnimalDto> animalsData)
+        public bool AnimalRegister(AnimalDto animalData)
         {
-            var animalsList = _mapper.Map<List<Animal>>(animalsData);
+            var animal = _mapper.Map<Animal>(animalData);
 
-            return _queries.AnimalsRegister(animalsList);
+            return _queries.AnimalRegister(animal);
         }
         /// <summary>
         /// Se obtiene la información de un animal
@@ -61,6 +61,32 @@ namespace BusinessLogicSAPP.BL
             var animalsListDto = _mapper.Map<List<AnimalDto>>(animalsList);
 
             return animalsListDto;
+        }
+
+        public List<AnimalTypeDto> GetAnimalTypes()
+        {
+            var animalTypes = _queries.GetAnimalTypes();
+            var animalTypesDto = _mapper.Map<List<AnimalTypeDto>>(animalTypes);
+
+            return animalTypesDto;
+        }
+
+        public List<RazaDto> GetRazasByAnimalType(int animalTypeId)
+        {
+            var razas = _queries.GetRazasByAnimalType(animalTypeId);
+
+            var razasDto = _mapper.Map<List<RazaDto>>(razas);
+
+            return razasDto;
+        }
+
+        public List<ReproductiveStatusDto> GetReproductiveStatusByAnimalType(int animalTypeId)
+        {
+            var reproductiveStatuses = _queries.GetReproductiveStatusByAnimalType(animalTypeId);
+
+            var reproductiveStatusesDtos = _mapper.Map<List<ReproductiveStatusDto>>(reproductiveStatuses);
+
+            return reproductiveStatusesDtos;
         }
     }
 }

@@ -241,7 +241,96 @@ function UserRegister() {
     }
 }
 
+function AnimalRegister() {
+    var nombre = $('#nombre').val();
+    var numeroIdentificacion = $('#numero-identificacion').val();
+    var fechaNacimiento = $('#fecha-nacimiento').val();
+    var fechaAdquisicion = $('#fecha-adquisicion').val();
+    var tipoAnimalId = $('#tipo-animal option:selected').val();
+    var razaId = $('#raza option:selected').val();
+    var estadoReproductivoId = $('#estado-reproductivo option:selected').val();
+    var numeroPartos = $('#numero-partos').val();
+    var foto = $('#foto').val();
+}
+
+function CleanFormRegisterAnimal() {
+    $('#nombre').val("");
+    $('#numero-identificacion').val("");
+    $('#fecha-nacimiento').val("");
+    $('#fecha-adquisicion').val("");
+    $('#tipo-animal').val('0');
+    $('#razas').val('0').prop('disabled', true);
+    $('#estado-reproductivo').val('0');
+    $('#numero-partos').val("");
+    $('#foto').val("");   
+}
+
+function GetAnimalTypes() {
+    $.ajax({
+        url: window.location.origin + '/Animals/GetAnimalTypes',
+        method: 'GET',
+        dataType: 'json',
+        success: function (data) {
+            var selectAnimalType = $('#tipo-animal');
+
+            selectAnimalType.empty();
+
+            var optionSelected = $('<option></option>');
+            optionSelected.text('Selecciones un tipo de animal');
+            optionSelected.val(0);
+            optionSelected.prop('selected', true);
+
+            selectAnimalType.append(optionSelected);
+
+            for (var i = 0; i < data.length; i++) {
+                var option = $('<option></option>');
+                option.text(data[i].nombre);
+                option.val(data[i].id);
+                selectAnimalType.append(option);
+            }
+        },
+        error: function (error) {
+            console.log(error);
+        }
+    });
+}
+
+function GetRazasByAnimalType() {
+    $('#razas').prop('disabled', false);
+    var animalTypeId = $('#tipo-animal option:selected').val();
+
+    $.ajax({
+        url: window.location.origin + '/Animals/GetRazasByAnimalType?animalTypeId=' + animalTypeId,
+        method: 'GET',
+        dataType: 'json',
+        success: function (data) {
+            var selectRazas = $('#razas');
+
+            selectRazas.empty();
+
+            var optionSelected = $('<option></option>');
+            optionSelected.text('Selecciones una raza');
+            optionSelected.val(0);
+            optionSelected.prop('selected', true);
+
+            selectRazas.append(optionSelected);
+
+            for (var i = 0; i < data.length; i++) {
+                var option = $('<option></option>');
+                option.text(data[i].nombre);
+                option.val(data[i].id);
+                selectRazas.append(option);
+            }
+
+        },
+        error: function (error) {
+            console.log(error);
+        }
+    });
+}
+
 $(document).ready(function () {
     GetCountries();
     GetDocumentTypes();
+    GetAnimalTypes();
 });

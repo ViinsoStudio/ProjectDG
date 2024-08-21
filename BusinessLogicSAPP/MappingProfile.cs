@@ -12,19 +12,26 @@ namespace BusinessLogicSAPP
     public class MappingProfile : Profile
     {
         public MappingProfile() 
-        {
-            CreateMap<User, UserDto>();
-            CreateMap<UserDto, User>();
+        {            
             CreateMap<Animal, AnimalDto>();
             CreateMap<AnimalDto, Animal>();
+            CreateMap<AnimalType, AnimalTypeDto>();
+            CreateMap<AnimalTypeDto, AnimalType>();
+            CreateMap<CitMun, CitMunDto>();
+            CreateMap<CitMunDto, CitMun>();
             CreateMap<Country, CountryDto>();
             CreateMap<CountryDto, Country>();
             CreateMap<DepStaPro, DepStaProDto>();
             CreateMap<DepStaProDto, DepStaPro>();
             CreateMap<DocumentType, DocumentTypeDto>();
             CreateMap<DocumentTypeDto, DocumentType>();
-            CreateMap<CitMun, CitMunDto>();
-            CreateMap<CitMunDto, CitMun>();
+            CreateMap<Raza, RazaDto>();
+            CreateMap<RazaDto, Raza>();
+            CreateMap<ReproductiveStatus, ReproductiveStatusDto>();
+            CreateMap<ReproductiveStatusDto, ReproductiveStatus>();
+            CreateMap<User, UserDto>();
+            CreateMap<UserDto, User>();
+
         }    
     }
 }

@@ -16,11 +16,11 @@ namespace DataAccessSAPP.Queries
             _context = context;
         }
 
-        public bool AnimalsRegister(List<Animal> animalsData)
+        public bool AnimalRegister(Animal animalsData)
         {
             try
             {
-                _context.Animals.AddRange(animalsData);
+                _context.Animals.Add(animalsData);
                 _context.SaveChanges();
                 return true;
             }
@@ -42,6 +42,25 @@ namespace DataAccessSAPP.Queries
             var animalsList = _context.Animals.Where(a => a.UserId == userId).ToList();
 
             return animalsList != null ? animalsList : new List<Animal>();
+        }
+
+        public List<AnimalType> GetAnimalTypes()
+        {
+            return _context.AnimalTypes.ToList();
+        }
+
+        public List<Raza> GetRazasByAnimalType(int animalTypeId)
+        {
+            return (from r in _context.Razas
+                    where r.TipoAnimalId == animalTypeId
+                    select r).ToList();
+        }
+
+        public List<ReproductiveStatus> GetReproductiveStatusByAnimalType(int animalTypeId)
+        {
+            return (from rs in _context.ReproductiveStatuses
+                    where rs.AnimalTypeId == animalTypeId
+                    select rs).ToList();
         }
     }
 }

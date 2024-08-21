@@ -15,13 +15,16 @@ namespace DataAccessSAPP.Context
         {
             
         }
-
-        public DbSet<User> Users { get; set; }
+                
         public DbSet<Animal> Animals { get; set; }
+        public DbSet<AnimalType> AnimalTypes { get; set; }
+        public DbSet<CitMun> CitMuns { get; set; }
         public DbSet<Country> Countries { get; set; }
         public DbSet<DepStaPro> DepStaPros {  get; set; }
         public DbSet<DocumentType> DocumentTypes { get; set; }
-        public DbSet<CitMun> CitMuns { get; set; }
+        public DbSet<Raza> Razas { get; set; }
+        public DbSet<ReproductiveStatus> ReproductiveStatuses { get; set; }
+        public DbSet<User> Users { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
