@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinFormsSAPP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a137adc7b9adf9b7bc9da452e50e98ab48b9ec4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9a455ba3287f053bfff7d447fd3afef7e930924")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinFormsSAPP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinFormsSAPP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

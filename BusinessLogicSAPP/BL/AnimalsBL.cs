@@ -16,6 +16,7 @@ namespace BusinessLogicSAPP.BL
         private readonly IMapper _mapper;
 
         public readonly AnimalsQueries _queries;
+        
         public AnimalsBL(AnimalsQueries queries)
         {
             _queries = queries;
@@ -87,6 +88,31 @@ namespace BusinessLogicSAPP.BL
             var reproductiveStatusesDtos = _mapper.Map<List<ReproductiveStatusDto>>(reproductiveStatuses);
 
             return reproductiveStatusesDtos;
+        }
+
+        public bool CreateAnimalType(string Name)
+        {
+            try
+            {
+                return _queries.CreateAnimalType(Name);
+            }
+            catch (Exception)
+            {
+
+                return false;
+            }
+        }
+
+        public void CreateRace(string AnimalType, string NewRaceName)
+        {
+            var animalTypeId = _queries.GetAnimalTypeId(AnimalType);
+            var newRace = new Raza()
+            {
+                Nombre = NewRaceName,
+                TipoAnimalId = animalTypeId,
+            };
+
+            _queries.CreateRace(newRace);
         }
     }
 }

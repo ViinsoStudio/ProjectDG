@@ -61,5 +61,30 @@ namespace WebMVCSAPP.Controllers
                 throw;
             }
         }
+
+        public async Task<IActionResult> GetReproductiveStatusByAnimalType(int animalTypeId)
+        {
+            string url = "https://localhost:44382/api/Animals/GetReproductiveStatusByAnimalType?animalTypeId=" + animalTypeId;
+
+            using HttpClient client = new HttpClient();
+
+            try
+            {
+                HttpResponseMessage response = await client.GetAsync(url);
+
+                response.EnsureSuccessStatusCode();
+
+                string jsonResponse = await response.Content.ReadAsStringAsync();
+
+                var reproductiveStatuses = JsonConvert.DeserializeObject<List<AnimalType>>(jsonResponse);
+
+                return Json(reproductiveStatuses);
+            }
+            catch (HttpRequestException e)
+            {
+
+                throw;
+            }
+        }
     }
 }

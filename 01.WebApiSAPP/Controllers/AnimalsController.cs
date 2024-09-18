@@ -51,5 +51,18 @@ namespace WebApiSAPP.Controllers
         {
             return _bussines.GetReproductiveStatusByAnimalType(animalTypeId);
         }
+
+        [HttpPost("CreateAnimalType")]
+
+        public bool CreateAnimalType(string Name)
+        {
+            return _bussines.CreateAnimalType(Name);
+        }
+
+        [HttpPost("CreateRace")]
+        public void CreateRace(string AnimalType, string NewRaceName)
+        {
+            _bussines.CreateRace(AnimalType, NewRaceName);
+        }
     }
 }

@@ -62,5 +62,58 @@ namespace DataAccessSAPP.Queries
                     where rs.AnimalTypeId == animalTypeId
                     select rs).ToList();
         }
+
+        public bool CreateAnimalType(string Name)
+        {
+            try
+            {
+                var exist = _context.AnimalTypes.FirstOrDefault(a => a.Nombre == Name);
+
+                if (exist == null)
+                {
+                    var newAnimalType = new AnimalType()
+                    {
+                        Nombre = Name,
+                    };
+                    _context.AnimalTypes.Add(newAnimalType);
+                    _context.SaveChanges();
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+
+                return false;
+            }
+        }
+
+        public int GetAnimalTypeId(string AnimalType)
+        {
+            return _context.AnimalTypes.Where(a => a.Nombre == AnimalType).Select(a => a.Id).FirstOrDefault();
+        }
+
+        public void CreateRace(Raza newRace)
+        {
+            try
+            {
+                var isExist = _context.Razas.Where(r => r.TipoAnimalId == newRace.TipoAnimalId && r.Nombre == newRace.Nombre).FirstOrDefault();
+
+                if (isExist == null)
+                {
+                    _context.Razas.Add(newRace);
+                    _context.SaveChanges();
+                }
+                
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
     }
 }
